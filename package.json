@@ -1,0 +1,18 @@
+{
+  "name": "img-reader",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "3.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "@types/pngjs": "^6.0.5",
+    "pg": "^8.13.0",
+    "pngjs": "^7.0.0"
+  }
+}
